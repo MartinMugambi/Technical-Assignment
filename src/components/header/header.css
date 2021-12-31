@@ -1,0 +1,39 @@
+/* Google font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-color: hsl(268, 76%, 53%);
+  --primary-font: "Poppins", sans-serif;
+  /*utitlties colors  */
+  --white-color: hsl(0, 10%, 100%);
+}
+
+/* header styling section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-color);
+  width: 100vw;
+  height: 100px;
+  color: var(--white-color);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__logo > img {
+  object-fit: contain;
+  width: 50px;
+  cursor: pointer;
+}

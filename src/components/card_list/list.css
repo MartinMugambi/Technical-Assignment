@@ -1,0 +1,13 @@
+main {
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+}
+.card__list {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}

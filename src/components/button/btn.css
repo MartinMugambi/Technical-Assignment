@@ -1,0 +1,33 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+button {
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 8px 4px;
+  color: white;
+  background: var(--secondary-color);
+  border-radius: 25px;
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
+  border: 2px 2px 1px #a88a59;
+}
+
+@media screen and (max-width: 375px) {
+  .btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .btn {
+    display: none;
+  }
+}
